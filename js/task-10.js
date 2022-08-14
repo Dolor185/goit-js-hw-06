@@ -24,5 +24,5 @@ function createBoxes(amount) {
 }
 
 refs.destroy.addEventListener("click", () => {
-  refs.boxes.remove();
+  refs.boxes.innerHTML = "";
 });
