@@ -27,7 +27,12 @@ button {
   display: flex;
   list-style: none;
 }
-
+.gallery .item {
+  width: 300px;
+}
+.gallery .image {
+  width: 100%;
+}
 .gallery .item:not(:last-child) {
   margin-right: 10px;
 }
